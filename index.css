@@ -1,0 +1,189 @@
+
+ body{
+     background-color: var(--main-background);
+ }
+ * {
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+ }
+ .container {
+     margin-left: 80px;
+     margin-right: 80px;
+ }
+ .header{    
+     background-color: var(--header-background);
+     box-shadow: var(--header-shadow)
+ }
+ .header-inner{
+     display: flex;
+     justify-content: space-between;
+ }
+ .title{
+     font-family: 'Nunito Sans';
+     font-weight: 800;
+     font-size: 24px;
+     line-height: 33px;
+     color:var(--main-text-color) ;
+     padding: 24px 0;
+ }
+ #theme-button{
+     padding: 29px 0;
+     display: flex;
+     cursor: pointer;
+ }
+ #theme-img{
+     width: 20px;
+     height: 20px;
+     margin-right: 8px;
+ }
+ .mode-title{
+     font-family: 'Nunito Sans';
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 22px;
+     color: var(--theme-text-color);
+ }
+ .main-inner{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+ }
+ #myForm {
+     margin-top: 48px;
+ }
+ .magnifying-glass{
+     position: absolute;
+     height: 18px;
+     width: 18px;
+     margin: 19px 24px;
+     cursor: pointer;
+     z-index: 2;
+ }
+ .myInput {
+     position: relative;
+     width: 480px;
+     font-family: 'Nunito Sans';
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 20px;
+     color: var(--input-text-color); 
+     padding: 18px 271px 18px 74px;
+     background-color: var(--input-background);
+     box-shadow: var(--form-shadow);
+     border-radius: 5px;
+     border: none;
+     z-index: 1;
+ }
+ #countries-inner{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 48px;
+     flex-wrap: wrap;
+ }
+ #country{
+     width: 264px;
+     height: 336px;
+     background-color: var(--country-card-background);
+     box-shadow: var(--country-card-shadow);
+     border-radius: 5px;
+     margin-bottom: 67px;
+ }
+ .link{
+     text-decoration: none;
+ }
+ #flag-img{
+     width: 264px;
+     height: 160px;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+     box-shadow: var(--country-card-shadow);
+ }
+ #link{
+     text-decoration: none;
+ }
+ #info{
+     margin-top: 24px;
+     margin-left: 24px;
+     font-family: 'Nunito Sans';
+     color: var(--info-text-color);
+ }
+ #country-name{
+     font-weight: 800;
+     font-size: 18px;
+     line-height: 26px;
+     margin-bottom: 16px;
+ }
+ .country-info1{
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 16px;
+     margin-bottom: 8px;
+ }
+ .country-info2{
+     font-weight: 300;
+     font-size: 14px;
+     line-height: 16px;
+ }
+ .dropdown{
+     position: relative;   
+ }
+ /* .dropdown:hover .dropdown-content{
+     display: block;
+ } */
+     
+ .dropbtn:hover{
+     background-color: var(--country-card-shadow);
+     transition: all 2s ease-out;
+ }
+ .dropbtn{
+     width: 200px;
+     height: 56px;
+     background-color: var(--dropbtn-background);
+     box-shadow: var(--filter-list-shadow);
+     border-radius: 5px;
+     margin-top: 48px;
+     cursor: pointer;
+     font-family: 'Nunito Sans';
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 20px;
+     color: var(--main-text-color);
+     padding: 18px 77px 18px 24px;
+ }
+ .dropdown-content{
+     margin-top: 4px;
+     display: none;
+     position: absolute;
+     box-shadow: var(--country-card-shadow);
+ }
+ .arrow{
+     width: 12px;
+     display: block;
+     margin: 22px 18px 22px 0;
+     position: absolute;
+     left: 170px;
+     bottom:0px;
+ }
+ .dropdown-list{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     background-color: var(--dropdown-list-background);
+     width: 200px;
+     border-radius: 5px;
+     padding: 16px 124px 16px 24px;
+ }
+ .dropdown-items{
+     font-family: 'Nunito Sans';
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 20px;
+     color: var(--dropdown-items-color);   
+     padding: 8px 0;
+     cursor: pointer;
+     /* display: block; */
+ }
+ .show {
+     display: block;
+ }
